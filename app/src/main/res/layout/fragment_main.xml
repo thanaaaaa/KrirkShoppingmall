@@ -11,7 +11,75 @@
         android:orientation="vertical"
         android:layout_margin="@dimen/margin"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></LinearLayout>
+        android:layout_height="wrap_content">
+
+
+        <!--user-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <!--icon-->
+        <ImageView
+            android:src="@drawable/ic_action_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--textf-->
+        <EditText
+            android:inputType="text"
+            android:hint="@string/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        <!--linear-->
+
+
+
+        <!--password-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--icon-->
+            <ImageView
+                android:src="@drawable/ic_action_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--textf-->
+            <EditText
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--login btn-->
+
+        <Button
+            android:text="login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--new register-->
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:textSize="@dimen/h2"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
 
 
 
